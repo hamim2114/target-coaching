@@ -7,7 +7,7 @@ const blogData = [
   {
     img: n3,
     date: "Dec, 12th 2022",
-    title: "Testing is a great thing",
+    title: "A variation of the ordinary",
     text: "amet consectetur adipisicing elit. Possimus, magni",
   },
   {
@@ -19,7 +19,7 @@ const blogData = [
   {
     img: n3,
     date: "Dec, 12th 2022",
-    title: "Learn english in ease",
+    title: "A variation of the ordinary",
     text: "amet consectetur adipisicing elit. Possimus, magni",
   },
   {

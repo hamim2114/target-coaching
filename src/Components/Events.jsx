@@ -15,7 +15,7 @@ const Events = () => {
 
                 <div className='sm:flex justify-between'>
 
-                    <div data-aos='fade-up' className=' shadow-lg pb-2 mb-4 md:mb-0 shadow-gray-400'>
+                    <div data-aos='fade-up' className=' shadow-lg pb-2 md:mx-2 mb-4 md:mb-0 shadow-gray-400'>
                         <div className='bg-green-500 absolute px-6 font-bold text-white py-2'>
                             <h4>1st <br /> Dec</h4>
                         </div>
@@ -30,7 +30,7 @@ const Events = () => {
                         </div>
                     </div>
 
-                    <div data-aos='fade-up' data-aos-delay='200' className=' pb-2 shadow-lg shadow-gray-400'>
+                    <div data-aos='fade-up' data-aos-delay='200' className=' pb-2 shadow-lg md:mx-2 shadow-gray-400'>
                         <div className='bg-green-500 absolute px-6 font-bold text-white py-2'>
                             <h4>1st <br /> Dec</h4>
                         </div>
