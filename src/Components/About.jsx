@@ -17,7 +17,7 @@ const About = () => {
     <section id="about" className="mt-[8rem] md:mb-[6rem] mb-[3rem]">
       <div className="px-6">
         <div className="mx-auto grid md:grid-cols-2 gap-x-8 md:w-[1300px]">
-          <div data-aos='fade-up' className="flex md:p-6 p-4 text-white relative bg-blue-600">
+          <div className="flex md:p-6 p-4 text-white relative bg-blue-600">
             <div className="m-4">
               <SiGooglescholar size={40} />
             </div>
@@ -32,7 +32,7 @@ const About = () => {
             </div>
           </div>
 
-          <div data-aos='fade-up' className="flex md:p-6 p-4 text-white relative bg-yellow-500">
+          <div className="flex md:p-6 p-4 text-white relative bg-yellow-500">
             <div className="m-4">
               <SiGooglescholar size={40} />
             </div>
