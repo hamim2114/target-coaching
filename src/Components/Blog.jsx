@@ -49,7 +49,7 @@ const Card = ({ img, date, title, text }) => {
 const Blog = () => {
   return (
     <section id="blog" className=" bg-gray-100">
-      <div className="md:mx-[14rem] px-6 md:py-[8rem] py-[3rem]">
+      <div className="xl:mx-[14rem] px-6 md:py-[8rem] py-[3rem]">
         <div className="text-center">
           <h1 data-aos='fade-up' data-aos-duration='1000' className="text-3xl font-serif font-bold">RECENT STORIES</h1>
           <p data-aos='fade-up' data-aos-duration='1000' data-aos-delay='200' className="pb-9">

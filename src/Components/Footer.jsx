@@ -5,7 +5,7 @@ import {BsFacebook,BsYoutube, BsTwitter,BsLinkedin} from 'react-icons/bs'
 const Footer = () => {
     return (
         <footer className='bg-slate-900 pb-[1rem] pt-[4rem]'>
-            <div className='md:mx-[19rem] px-6 border-b-2 border-slate-700 pb-12 justify-between md:flex'>
+            <div className='xl:mx-[19rem] md:mx-[10rem] px-6 border-b-2 border-slate-700 pb-12 justify-between md:flex'>
                 <div data-aos='fade-up' data-aos-duration='3000' className=''>
                     <div className='text-slate-300'>
                         <h3 className='font-bold'>ABOUT US</h3>
@@ -22,7 +22,7 @@ const Footer = () => {
                         </form>
                     </div>
                 </div>
-                <div data-aos='fade-down' data-aos-duration='3000' className='flex px-8 flex-col'>
+                <div data-aos='fade-down' data-aos-duration='2000' className='flex px-8 flex-col'>
                     <div className='flex justify-between  md:px-0 text-white'>
                         <div className='flex flex-col md:px-20'>
                             <h3 className='mb-4 font-bold'>QUICK LINK </h3>

@@ -7,7 +7,7 @@ import {GiMaterialsScience} from 'react-icons/gi'
 const Course = () => {
     return (
         <section id='course' className=' bg-gray-100'>
-            <div className='md:mx-[14rem] px-6 md:py-[6rem] py-[4rem]'>
+            <div className='xl:mx-[14rem] px-6 md:py-[6rem] py-[4rem]'>
                 <div className='border-l-2 border-green-500 pl-6'>
                     <h1 data-aos='fade-up' data-aos-duration='1000' className='text-5xl font-bold'><span className='text-green-500'>Our</span> Course</h1>
                     <p data-aos='fade-up' data-aos-duration='1000' data-aos-delay='100' className='py-5 mb-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corporis <br /> qui rem error rerum earum minus distinctio labore doloremque debitis.</p>

@@ -12,7 +12,7 @@ const Hero = () => {
           <img src={bgimg} alt="" />
         </Marquee>
       </div>
-      <div className="relative md:px-[15rem] px-6 w-full md:pt-[12rem] pt-[6rem]">
+      <div className="relative sm:px-[4rem] xl:px-[15rem] px-6 w-full md:pt-[12rem] pt-[6rem]">
         <div className="text-white mt-14">
           <h6 className="animate__animated animate__fadeInUp h-[26px] md:text-lg">
             <Typewriter
@@ -36,7 +36,7 @@ const Hero = () => {
           <button className="animate__animated animate__fadeInLeft bg-blue-600 py-[10px] px-[25px] hover:bg-transparent duration-500 hover:bg-blue-400 mr-2">
             JOIN WITH US
           </button>
-          <button className="animate__animated animate__fadeInLeft animate__delay-1s border border-blue-600 py-[10px] px-[25px] duration-500 hover:bg-blue-600  bg-transparent">
+          <button className="animate__animated animate__fadeInLeft animate__delay-1s border border-blue-600 py-[10px] px-[25px] duration-500 md:hover:bg-blue-600  bg-transparent">
             OUR CLASSES
           </button>
         </div>

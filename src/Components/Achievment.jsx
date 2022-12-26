@@ -10,7 +10,7 @@ const Achievment = () => {
  
   return (
     <section className="md:py-[5rem] py-[2rem]  w-full bg-slate-900">
-      <div className="md:mx-[14rem] px-6 text-white ">
+      <div className="xl:mx-[14rem] px-6 text-white ">
         <div className="md:text-center">
           <h1 data-aos='fade-right' data-aos-duration='1000' className="text-5xl font-bold py-4">
             Our <span className="text-green-500">Achievement</span>

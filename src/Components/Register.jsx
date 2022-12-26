@@ -3,7 +3,7 @@ import React from 'react';
 const Register = () => {
     return (
         <section id='contact' className='bg-slate-900'>
-            <div className='md:mx-[25rem] px-9 md:py-[7rem] py-[4rem] '>
+            <div className='xl:mx-[25rem] md:mx-[8rem] px-9 md:py-[7rem] py-[4rem] '>
                 <div className='md:mb-6 mb-3 text-center text-white'>
                     <h1 data-aos='fade-right' data-aos-duration='1000' className='text-5xl font-bold '>Register <span className='text-green-500'>Now</span></h1>
                     <p data-aos='fade-up' data-aos-duration='1000' className='py-2'>Winter Admission Is Going On. We are announcing for winter batch 2022.</p>

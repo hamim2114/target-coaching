@@ -7,13 +7,13 @@ import {BiTimeFive} from 'react-icons/bi'
 const Events = () => {
     return (
         <section id='event' className='md:py-[8rem] py-[3rem]'>
-            <div className='sm:mx-[14rem] px-6'>
+            <div className='xl:mx-[14rem] px-6'>
                 <div data-aos='fade-up' data-aos-duration='1000' className=' border-l-2 border-green-500 pl-6'>
                     <h1 data-aos='fade-right' data-aos-duration='1000' className='text-5xl font-bold mb-2'> <span className='text-green-500'>Our</span> Event</h1>
                     <p data-aos='fade-right' data-aos-duration='1000' data-aos-delay='200' className='mb-8'>amet consectetur adipisicing elit. Quos beatae itaque <br className='hidden md:block' /> accusantium quas voluptas iusto.adipisicing elit. Quos beatae</p>
                 </div>
 
-                <div className='sm:flex justify-between'>
+                <div className='md:flex justify-between'>
 
                     <div data-aos='fade-up' data-aos-duration='1000' className=' shadow-lg pb-2 md:mx-2 mb-4 md:mb-0 shadow-gray-400'>
                         <div className='bg-green-500 absolute px-6 font-bold text-white py-2'>

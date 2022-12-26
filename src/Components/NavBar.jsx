@@ -18,10 +18,10 @@ const NavBar = () => {
     <nav  data-aos='fade-down' className="w-screen fixed z-40 ">
       <div className="md:px-[5rem]  bg-gray-100 w-full h-[60px] drop-shadow-lg flex justify-between items-center md:py-0 py-2">
         <div>
-          <img className="sm:w-[250px] pl-2 w-[200px]" src={logo} alt="" />
+          <img className="md:w-[250px] pl-2 w-[200px]" src={logo} alt="" />
         </div>
         <div>
-          <div className="hidden sm:flex">
+          <div className="hidden md:flex">
             <AnchorLink href="#home" className="ml-8">
               Home
             </AnchorLink>
@@ -46,7 +46,7 @@ const NavBar = () => {
           </div>
         </div>
         {/* mobile menu */}
-        <div ref={navMenu} className="sm:hidden pr-2 z-40" onClick={() => setNav(!nav)}>
+        <div ref={navMenu} className="md:hidden pr-2 z-40" onClick={() => setNav(!nav)}>
           {nav ? <BiMenuAltRight size={30} /> : <BiMenu size={30} />}
         </div>
 

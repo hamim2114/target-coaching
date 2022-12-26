@@ -9,12 +9,12 @@ const Teachers = () => {
     return (
         <section id='teacher' className='bg-gray-100'>
             
-            <div className='flex relative flex-col md:mx-[14rem] md:py-[6rem] py-[3rem] px-6 text-center '>
+            <div className='flex relative flex-col xl:mx-[14rem] md:py-[6rem] py-[3rem] px-6 text-center '>
                 <div>
                     <h2 data-aos='slide-right' data-aos-duration='1000' className='text-5xl font-bold py-4 '>Our Experience <span className='text-green-500'>Advisors</span></h2>
                     <p data-aos='fade-up' data-aos-duration='1000' className='pb-7 text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br className='hidden md:block' /> Molestias, harum unde. Eligendi cumque corporis magni.</p>
                 </div>
-                <div className='grid gap-3 grid-cols-2 sm:grid-cols-4'>
+                <div className='grid gap-3 grid-cols-2 md:grid-cols-4'>
                     <div data-aos='slide-left' data-aos-duration='1000' className=' border-b-2  border-green-500 shadow-gray-400 shadow-lg'>
                         <img className='w-full' src={hafiz} alt="" />
                         <h4 className='text-2xl font-bold pt-4'>Hafizur Rahman</h4>

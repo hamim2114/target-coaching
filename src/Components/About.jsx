@@ -15,8 +15,9 @@ const About = () => {
   ];
   return (
     <section id="about" className="mt-[8rem] md:mb-[6rem] mb-[3rem]">
-      <div className="px-6">
-        <div data-aos='fade-up' data-aos-duration="2000" className="mx-auto grid md:grid-cols-2 gap-x-8 md:w-[1300px]">
+      <div className=" px-6">
+        <div data-aos='fade-up' data-aos-duration="2000" className="sm:px-[4rem] xl:px-[3rem] mx-auto grid lg:grid-cols-2 gap-x-8 xl:w-[1300px]">
+
           <div className="flex md:p-6 p-4 text-white relative bg-blue-600">
             <div className="m-4">
               <SiGooglescholar size={40} />
@@ -78,7 +79,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="grid sm:grid-cols-2  md:mx-[14rem] md:mt-[6rem] mt-[4rem] items-center">
+        <div className="grid md:grid-cols-2  xl:pl-[4rem] md:mt-[6rem] mt-[4rem] items-center">
           <div className="md:pr-9 ">
             <div className="border-l-2 px-6 border-green-500">
               <h1 data-aos='fade-right' data-aos-duration='1000' className="text-5xl font-bold">
@@ -97,9 +98,20 @@ const About = () => {
               ABOUT US
             </button>
           </div>
-          <div className="hidden sm:block">
+          <div className="hidden xl:block">
             <SimpleImageSlider
               width={650}
+              height={404}
+              autoPlay={true}
+              images={images}
+              showBullets={true}
+              showNavs={true}
+            />
+          </div>
+          {/* for medium screen */}
+          <div className="hidden xl:hidden md:block">
+            <SimpleImageSlider
+              width={550}
               height={404}
               autoPlay={true}
               images={images}
