@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className='bg-slate-900 pb-[1rem] pt-[4rem]'>
             <div className='md:mx-[19rem] px-6 border-b-2 border-slate-700 pb-12 justify-between md:flex'>
-                <div className=''>
+                <div data-aos='fade-up' data-aos-duration='3000' className=''>
                     <div className='text-slate-300'>
                         <h3 className='font-bold'>ABOUT US</h3>
                         <p className='my-4'>Lratione error qui corporis molestiae impedit corrupti eos <br className='hidden md:block' /> omnis provident commodi, modi ab minima ipsum.</p>
@@ -14,15 +14,15 @@ const Footer = () => {
                         <p className='flex items-center'> <MdEmail className='mr-2'/>targetcoaching@gmail.com</p>
                         <p className='flex items-center'><MdPhone className='mr-2'/>+8801839420283</p>
                     </div>
-                    <div className='mt-4 md:pb-0 pb-16'>
+                    <div data-aos='slide-right' data-aos-duration='3000' className='mt-4 md:pb-0 pb-16'>
                         <h3 className='text-white font-bold py-2'>NEWSLATTER</h3>
-                        <form action="">
+                        <form  action="">
                             <input className='py-[10px] px-2' type="email" placeholder='Your Email Address' />
                             <button className="bg-blue-600 text-white py-[10px] px-[25px] hover:bg-transparent duration-500 border border-blue-500 mr-2">SUBMIT</button>
                         </form>
                     </div>
                 </div>
-                <div className='flex px-8 flex-col'>
+                <div data-aos='fade-down' data-aos-duration='3000' className='flex px-8 flex-col'>
                     <div className='flex justify-between  md:px-0 text-white'>
                         <div className='flex flex-col md:px-20'>
                             <h3 className='mb-4 font-bold'>QUICK LINK </h3>

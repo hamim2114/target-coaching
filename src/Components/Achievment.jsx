@@ -7,7 +7,7 @@ import ScroolTrigger from "react-scroll-trigger";
 
 const Achievment = () => {
   const [viewPort, setViewPort] = useState(false);
-
+ 
   return (
     <section className="md:py-[5rem] py-[2rem]  w-full bg-slate-900">
       <div className="md:mx-[14rem] px-6 text-white ">
@@ -21,15 +21,13 @@ const Achievment = () => {
             laboriosam harum magnam, ex quaerat cupiditate
           </p>
         </div>
-        <ScroolTrigger
-          onEnter={() => setViewPort(true)}
-          onExit={() => setViewPort(false)}
-        >
+       
           <div data-aos='fade-up' data-aos-duration='1000' className="grid md:grid-cols-4 justify-between py-14">
             
             <div className="flex items-center p-4 justify-center">
               <FaGraduationCap className="mr-4" size={50} />
               <div className=" ">
+               <ScroolTrigger onEnter={() => setViewPort(true)} ></ScroolTrigger> {/* for viewport */}
                 <h1 className="text-5xl w-[120px] font-bold text-green-500">
                   {viewPort && <CountUp start={0} end={200} duration={2.75} />}+
                 </h1>
@@ -68,7 +66,7 @@ const Achievment = () => {
             </div>
             
           </div>
-        </ScroolTrigger>
+        
       </div>
     </section>
   );
