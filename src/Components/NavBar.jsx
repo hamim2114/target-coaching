@@ -6,6 +6,7 @@ import { BiMenu, BiMenuAltRight } from "react-icons/bi";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
 
+  // set false outside click
   const navMenu = useRef();
   const closeOpenMenus = (e) => {
     if (navMenu.current && nav && !navMenu.current.contains(e.target)) {
@@ -53,7 +54,7 @@ const NavBar = () => {
           className={
             !nav
               ? "absolute  w-full flex flex-col bg-slate-200 translate-y-[-100%]  duration-1000 "
-              : " absolute  w-full mt-[23rem] flex flex-col bg-slate-200 duration-500 "
+              : " absolute  w-full mt-[23rem] flex flex-col bg-slate-200 duration-1000 "
           }
         >
           <AnchorLink

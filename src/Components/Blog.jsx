@@ -32,7 +32,7 @@ const blogData = [
 
 const Card = ({ img, date, title, text }) => {
   return (
-    <div data-aos='fade-up' className=" bg-gray-100 shadow-lg shadow-gray-300 ">
+    <div data-aos='fade-up' data-aos-duration='1000' className=" bg-gray-100 shadow-lg shadow-gray-300 ">
       <img src={img} alt="" />
       <div className="">
         <h4 className="text-xl p-1 pl-3 font-bold">{title}</h4>
@@ -51,8 +51,8 @@ const Blog = () => {
     <section id="blog" className=" bg-gray-100">
       <div className="md:mx-[14rem] px-6 md:py-[8rem] py-[3rem]">
         <div className="text-center">
-          <h1 data-aos='fade-up' className="text-3xl font-serif font-bold">RECENT STORIES</h1>
-          <p data-aos='fade-up' data-aos-delay='200' className="pb-9">
+          <h1 data-aos='fade-up' data-aos-duration='1000' className="text-3xl font-serif font-bold">RECENT STORIES</h1>
+          <p data-aos='fade-up' data-aos-duration='1000' data-aos-delay='200' className="pb-9">
             amet consectetur adipisicing elit. Possimus, magni.
           </p>
         </div>

@@ -4,14 +4,6 @@ import Marquee from "react-fast-marquee";
 import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
-  const [text, setText] = useState(true);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setText(!text);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, [text]);
 
   return (
     <section id="home">
@@ -26,14 +18,14 @@ const Hero = () => {
             <Typewriter
               typeSpeed={50}
               deleteSpeed={4}
-              words={["Welcome To Target Coaching Home !"]}
+              words={["Welcome To Target Coaching Home !", "Our journey for your batter future !"]}
               loop={0}
               cursor={true}
               cursorBlinking={true}
             />
           </h6>
           {/* <h1 className="animate__animated animate__lightSpeedInLeft duration-500 md:text-7xl text-5xl font-bold md:my-3"><Typewriter typeSpeed={50} deleteSpeed={4} words={['Batter Education for All']} loop={1} cursorBlinking={true} /></h1> */}
-          <h1 className="animate__animated animate__fadeInUp duration-500 md:text-7xl text-5xl font-bold md:my-3">
+          <h1 className="animate__animated animate__slideInLeft animate__slow md:text-7xl text-5xl font-bold md:my-3">
             Batter Education for All
           </h1>
           <p className="animate__animated animate__fadeInDown font-light my-5">
