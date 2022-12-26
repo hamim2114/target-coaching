@@ -100,7 +100,7 @@ const About = () => {
           </div>
           <div className="hidden xl:block">
             <SimpleImageSlider
-              width={650}
+              width={600}
               height={404}
               autoPlay={true}
               images={images}
@@ -111,8 +111,8 @@ const About = () => {
           {/* for medium screen */}
           <div className="hidden xl:hidden md:block">
             <SimpleImageSlider
-              width={550}
-              height={404}
+              width={380}
+              height={304}
               autoPlay={true}
               images={images}
               showBullets={true}
